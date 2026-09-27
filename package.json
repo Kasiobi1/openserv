@@ -15,7 +15,8 @@
     "dev": "npm run dev -w backend",
     "build:contracts": "npm run build -w contracts",
     "dashboard": "npm run dev -w app",
-    "build": "npm run build -w app"
+    "build": "npm run build -w app",
+    "start:backend": "npm run start --workspace=backend"
   },
   "devDependencies": {
     "typescript": "^5.6.0"
